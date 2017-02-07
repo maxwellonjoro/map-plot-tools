@@ -1,4 +1,4 @@
-var app = angular.module('TekeTaxiApp', ['nemLogging','ui-leaflet'],function($locationProvider){
+var app = angular.module('MapPlotApp', ['nemLogging','ui-leaflet'],function($locationProvider){
     $locationProvider.html5Mode({
         enabled: true,
         requireBase: false
